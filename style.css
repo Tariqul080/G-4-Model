@@ -1,0 +1,105 @@
+/* Variable */
+:root{
+    --gray-color: #484646;
+    --bold-color: rgb(57, 56, 56);
+}
+
+/* Styles Body */
+body{
+    padding: 0 150px;
+    margin: 0 auto;
+}
+
+/* Shear variable */
+.common-title{
+    font-size: 70px;
+    color: var(--bold-color);
+    margin-bottom: 0;
+}
+
+.common-description{
+    font-size: 20px;
+    color: var(--gray-color);
+    margin-top: 0;
+}
+
+
+
+/* Header Section */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.nav-title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.nav-item-container{
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+    font-size: 20px;
+}
+/* Header End */
+
+/* main section */
+/* section start influencer */
+.influencer-Container{
+    display: flex;
+    align-items: center;
+
+}
+
+.influencer-description-container,.main-camera{
+    width: 50%;
+    height: 30rem;
+    background-color: aquamarine;
+}
+
+.influencer-description-container{
+    
+}
+.main-camera{
+    display: flex;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.main-camera img{
+
+   margin-right: 0; 
+}
+    
+    
+
+
+
+
+/* Responsive Section*/
+/* For Small device */
+@media screen and (max-width: 576px) {
+    body{
+        padding: 0px 10px;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-item-container{
+        align-items: center;
+        gap: 1rem;
+        font-size: 15px;
+    }
+    
+}
+
